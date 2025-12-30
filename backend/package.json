@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a backend project for serving all the backend facilities and services to youtweet web app.",
+  "keywords": [
+    "express",
+    "mongoose",
+    "bcryptjs",
+    "jsonwebtoken",
+    "youtweet",
+    "web-app",
+    "javascript",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathakshivani/youtweet/backend"
+  },
+  "license": "ISC",
+  "author": "Shivani",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "3.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.0"
+  }
+}
